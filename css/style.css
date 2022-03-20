@@ -30,6 +30,19 @@ body {
   min-height: 100vh;
 }
 
+.search__icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.user-nav__icon {
+  height: 2.25rem;
+  width: 2.25rem;
+}
+.user-nav__user-photo {
+  height: 3.75rem;
+  border-radius: 50%;
+}
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -46,6 +59,9 @@ body {
   height: 7rem;
   background-color: #fff;
   border-bottom: #f4f2f2;
+}
+.header__logo {
+  height: 3.25rem;
 }
 
 .hotel-view {
