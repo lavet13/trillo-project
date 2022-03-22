@@ -30,6 +30,14 @@ body {
   min-height: 100vh;
 }
 
+.gallery {
+  display: flex;
+}
+.gallery__photo {
+  display: block;
+  width: 100%;
+}
+
 .legal {
   font-size: 1.2rem;
   color: #ccc;
@@ -37,6 +45,17 @@ body {
   padding: 2.5rem;
 }
 
+.overview {
+  display: flex;
+}
+.overview__icon-star, .overview__icon-location {
+  width: 1.75rem;
+  height: 1.75rem;
+  fill: #eb2f64;
+}
+.overview__location {
+  margin-left: auto;
+}
 .search {
   flex: 0 0 40%;
   display: flex;
@@ -198,7 +217,6 @@ body {
 .hotel-view {
   background-color: #fff;
   flex: 1;
-  background-color: orangered;
   height: 80rem;
 }
 
