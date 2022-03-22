@@ -1,11 +1,11 @@
 .user-nav {
-    display: flex;
     align-self: stretch;
+    
+    display: flex;
 
     & > * {
         padding: 0 2rem;
         cursor: pointer; 
-        height: 100%;
         display: flex;
         align-items: center;
     }
