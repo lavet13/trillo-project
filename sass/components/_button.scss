@@ -1,5 +1,22 @@
-.btn {
-    &-inline {
-        
+.btn-inline {
+    display: inline-block;
+    padding-bottom: 2px;
+    border: none;
+    border-bottom: 1px solid currentColor;
+    
+    font-size: inherit;
+    color: $color-primary;
+    background: transparent;
+    cursor: pointer;
+
+    transition: all .2s;
+
+    &:hover {
+        color: $color-grey-dark-1;
+    }
+
+    &:focus {
+        outline: none;
+        animation: pulsate 1s infinite;
     }
 }
