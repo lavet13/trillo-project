@@ -9,6 +9,12 @@
     background-color: $color-white;
     font-size: 1.4rem;
 
+    @include respond(bp-smallest) {
+        flex-wrap: wrap;
+        align-content: space-around;
+        height: 12rem;
+    }
+
     &__logo {
         height: 3.25rem;
         margin-left: 2rem;

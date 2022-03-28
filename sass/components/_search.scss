@@ -5,6 +5,13 @@
     align-items: center;
     justify-content: center;
 
+    @include respond(bp-smallest) {
+        order: 1;
+        flex: 0 0 100%;
+
+        background-color: $color-grey-light-2; 
+    }
+
     &__input {
         font-family: inherit;
         font-size: inherit;
@@ -23,6 +30,10 @@
             outline: none;
             width: 100%;
             background-color: $color-grey-light-3;
+
+            @include respond(bp-smallest) {
+                width: 95%;
+            }
         }
 
         &::-webkit-input-placeholder {
