@@ -4,11 +4,24 @@
 
     margin-top: 3.5rem;
 
+    @include respond(bp-medium) {
+        display: flex;
+        margin: 0;
+    }
+
     &__item {
         position: relative;
 
+        @include respond(bp-medium) {
+            flex: 1;
+        }
+
         &:not(:last-child) {
             margin-bottom: .5rem;
+
+            @include respond(bp-medium) {
+                margin-bottom: 0;
+            }
         }
     }
 
@@ -50,6 +63,11 @@
         color: $color-grey-light-1;
         text-decoration: none;
         text-transform: uppercase;
+
+        @include respond(bp-medium) {
+            justify-content: center;
+            padding: 2rem;
+        }
     }   
 
 

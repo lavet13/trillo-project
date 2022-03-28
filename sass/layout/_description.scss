@@ -5,4 +5,9 @@
     flex: 0 0 60%;
     padding: 3rem;
     margin-right: 4.5rem;
+
+    @include respond(bp-medium) {
+        padding: 2rem;
+        margin-right: 3rem;
+    }
 }

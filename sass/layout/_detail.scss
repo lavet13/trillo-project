@@ -5,4 +5,8 @@
     font-size: 1.4rem;
     background-color: $color-grey-light-1;
     border-bottom: $line;
+
+    @include respond(bp-medium) {
+        padding: 3rem;
+    }
 }
